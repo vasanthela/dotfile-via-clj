@@ -80,5 +80,6 @@
   "I don't do a whole lot ... yet."
   [& args]
   (print-diff-summary-report)
+  (println)
   (print-diff-only-report (last diff-dot-files))
   (System/exit 0))
